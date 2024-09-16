@@ -4,9 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>e-Tal - Discover Emerging Sports Talents</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+
+  <!-- Link to External CSS File -->
+  <link rel="stylesheet" href="css/etal.css" />
+
   <!-- Header -->
   <header>
     <nav>
@@ -35,48 +36,41 @@
     </div>
   </section>
 
-  <!-- Key Features -->
-  <section id="features" class="features">
-    <div class="feature">
-      <h3>Create Your Profile</h3>
-      <p>Share your stats, achievements, and skills.</p>
-    </div>
-    <div class="feature">
-      <h3>Upload Your Videos</h3>
-      <p>Showcase your talent through highlights and gameplay footage.</p>
-    </div>
-    <div class="feature">
-      <h3>Get Discovered</h3>
-      <p>Scouts and sponsors are constantly searching for emerging talent.</p>
-    </div>
-  </section>
-
   <!-- Talents Section -->
   <section id="talents" class="talents">
     <h2>Our Talented Athletes</h2>
     <div class="athlete-profiles">
       <div class="athlete">
-        <img src="athlete1.jpg" alt="Athlete 1" />
-        <h3>John Doe</h3>
-        <p>Basketball | Age 19</p>
-        <a href="#" class="btn">View Profile</a>
+        <img src="images/athlete1.jpg" alt="Athlete 1" />
+        <h3>Hayweezyana</h3>
+        <p>Football | Age 19</p>
+        
+        <!-- Video Embed (YouTube) -->
+        <iframe width="320" height="240" src="https://www.youtube.com/watch?v=MZ5z-dLhjUE&pp=ygUYbGFtaW5lIHlhbWFsIGdyb3dpbmcgdXAg" title="My highlight" frameborder="0" allowfullscreen></iframe>
+        
+        <!-- Social Media Sharing Buttons -->
+        <div class="social-share">
+          <p>Share:</p>
+          <a href="https://twitter.com/intent/tweet?text=Check out my profile on e-Tal!&url=https://etal.com/" target="_blank">Twitter</a> |
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://etal.com/profile/" target="_blank">Facebook</a> |
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://etal.com/profile/" target="_blank">LinkedIn</a>
+        </div>
+        <a href="#" class="btn">View Full Profile</a>
       </div>
-      <div class="athlete">
-        <img src="athlete2.jpg" alt="Athlete 2" />
-        <h3>Jane Smith</h3>
-        <p>Soccer | Age 21</p>
-        <a href="#" class="btn">View Profile</a>
-      </div>
-      <!-- Add more athletes as needed -->
+      <!-- Add more athlete profiles -->
     </div>
   </section>
 
-  <!-- About Us Section -->
-  <section id="about" class="about">
-    <h2>About Us</h2>
-    <p>
-      e-Tal is dedicated to discovering and promoting emerging sports talents from all around the world. We empower athletes by connecting them with scouts, teams, and sponsors, offering them the platform to showcase their skills and achieve their dreams.
-    </p>
+  <!-- Messaging Section -->
+  <section id="messaging" class="messaging">
+    <h2>Chat with Scouts</h2>
+    <div id="chat-box">
+      <!-- Messages will appear here -->
+    </div>
+    <form id="chat-form">
+      <input type="text" id="message-input" placeholder="Type your message" required />
+      <button type="submit" class="btn">Send</button>
+    </form>
   </section>
 
   <!-- Contact Us Section -->
@@ -93,11 +87,11 @@
     </form>
   </section>
 
-  <!-- Footer -->
   <footer>
     <p>&copy; 2024 e-Tal. All rights reserved.</p>
   </footer>
 
-  <script src="script.js"></script>
+  <!-- Link to External JavaScript File -->
+  <script src="js/etal.js"></script>
 </body>
 </html>
