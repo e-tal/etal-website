@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #d0f0ff; /* Light blue background */
+  background-color: radial-gradient(circle, #2c8344, #bbe67e);
   color: #333;
 }
 
