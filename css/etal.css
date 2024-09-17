@@ -2,13 +2,13 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: radial-gradient(circle, #2c8344, #bbe67e);
+  background-color: #2c8344;
   color: #333;
 }
 
 /* Header */
 header {
-  background-color: #fff;
+  background-color: #a5ab9e;
   padding: 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -35,7 +35,7 @@ header {
 
 .btn {
   background-color: #1ba13f;
-  color: #fff;
+  color: #93ae94;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
