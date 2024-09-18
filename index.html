@@ -7,6 +7,8 @@
 
   <!-- Link to External CSS File -->
   <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
 
   <!-- Header -->
   <header>
@@ -17,13 +19,13 @@
         </a>
       </div>
       <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about.html">About Us</a></li>
-        <li><a href="#talents.html">Talents</a></li>
-        <li><a href="#scouts.html">For Scouts</a></li>
-        <li><a href="#contact.html">Contact Us</a></li>
-        <li><a href="#signup.html" class="btn">Sign Up</a></li>
-        <li><a href="#login.html" class="btn">Log in</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="talents.html">Talents</a></li>
+        <li><a href="scouts.html">For Scouts</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="signup.html" class="btn">Sign Up</a></li>
+        <li><a href="login.html" class="btn">Log in</a></li>
       </ul>
     </nav>
   </header>
@@ -31,18 +33,15 @@
   <!-- Hero Section -->
   <section id="home" class="hero">
     <div class="hero-content">
-      <h2>Showcase Your Talent, Get Discovered</h2>
-      <p>
-        Connect with scouts, teams, and sponsors from all over the world.
-      </p>
-      <a href="#signup.html" class="btn hero-btn">Join Now</a>
+      <h1>Showcase Your Talent, Get Discovered</h1>
+      <p>Connect with scouts, teams, and sponsors from all over the world.</p>
+      <a href="signup.html" class="btn hero-btn">Join Now</a>
     </div>
     <img src="images/football_banner.jpg" alt="Football Banner" class="hero-image" />
-  </div>
   </section>
 
-  <!-- Talents Section -->
-  <section id="talents" class="talents">
+  <!-- Featured Athletes Section -->
+  <section class="featured-athletes">
     <h2>Our Talented Athletes</h2>
     <div class="athlete-profiles">
       <div class="athlete">
@@ -50,43 +49,34 @@
         <h3>Hayweezyana</h3>
         <p>Position: Striker | Age: 14</p>
       </div>
-      <div class="athlete-profiles">
+      <div class="athlete">
         <img src="images/athlete2.jpg" alt="Athlete 2" />
-        <h3>Ben  Kay</h3>
+        <h3>Ben Kay</h3>
         <p>Position: Midfielder | Age: 13</p>
       </div>
     </div>
   </section>
-        
-        <!-- Video Embed (YouTube) -->
-        <iframe width="320" height="240" src="https://www.youtube.com/embed/MZ5z-dLhjUE" title="My highlight" frameborder="0" allowfullscreen></iframe>
-        
-        <!-- Social Media Sharing Buttons -->
-        <div class="social-share">
-          <p>Share:</p>
-          <a href="https://twitter.com/intent/tweet?text=Check out my profile on e-Tal!&url=https://etal.com/" target="_blank">Twitter</a> |
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https://etal.com/profile/" target="_blank">Facebook</a> |
-          <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://etal.com/profile/" target="_blank">LinkedIn</a>
-        </div>
-        <a href="#" class="btn">View Full Profile</a>
-      </div>
-      <!-- Add more athlete profiles -->
-    </div>
+
+  <!-- Call to Action Section -->
+  <section class="cta">
+    <h2>Ready to Showcase Your Skills?</h2>
+    <p>Join e-Tal and get discovered by top scouts around the globe.</p>
+    <a href="signup.html" class="btn">Get Started</a>
   </section>
 
-  <!-- Messaging Section -->
-  <section id="messaging" class="messaging">
-    <h2>Chat with Scouts</h2>
-    <div id="chat-box">
-      <!-- Messages will appear here -->
-    </div>
-    <form id="chat-form">
-      <input type="text" id="message-input" placeholder="Type your message" required />
-      <button type="submit" class="btn">Send</button>
-    </form>
-  </section>
-
+  <!-- Footer -->
   <footer>
+    <div class="social-media">
+      <a href="https://twitter.com/intent/tweet?text=Check out my profile on e-Tal!" target="_blank">
+        <img src="icon/twitter.svg" alt="Twitter" />
+      </a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://etal.com/profile/" target="_blank">
+        <img src="icon/facebook.svg" alt="Facebook" />
+      </a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://etal.com/profile/" target="_blank">
+        <img src="icon/linkedin.svg" alt="LinkedIn" />
+      </a>
+    </div>
     <p>&copy; 2024 e-Tal. All rights reserved.</p>
   </footer>
 
@@ -94,16 +84,3 @@
   <script src="js/etal.js"></script>
 </body>
 </html>
-
-<div class="social-share">
-  <p>Share:</p>
-  <a href="https://twitter.com/intent/tweet?text=Check this out" target="_blank">
-    <img src="icon/twitter.svg" alt="X" />
-  </a>
-  <a href="https://facebook.com/sharer/sharer.php?u=url" target="_blank">
-    <img src="icon/facebook.svg" alt="Facebook" />
-  </a>
-  <a href="https://linkedin.com/shareArticle?mini=true&url=url" target="_blank">
-    <img src="icon/linkedin.svg" alt="LinkedIn" />
-  </a>
-</div>
